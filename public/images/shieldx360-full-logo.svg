@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shield-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b00"/>
+      <stop offset="50%" style="stop-color:#9c27b0"/>
+      <stop offset="100%" style="stop-color:#2196f3"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b00"/>
+      <stop offset="50%" style="stop-color:#9c27b0"/>
+      <stop offset="100%" style="stop-color:#2196f3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Shield with Eagle -->
+  <g transform="translate(50, 20)" filter="url(#shadow)">
+    <path d="M100 10 L180 50 L180 120 Q180 160 100 180 Q20 160 20 120 L20 50 Z" fill="url(#shield-gradient)"/>
+    <path d="M100 30 Q150 50 150 120 Q150 150 100 165 Q50 150 50 120 Q50 50 100 30" fill="#fff"/>
+    <path d="M100 45 Q130 60 130 120 Q130 140 100 150 Q70 140 70 120 Q70 60 100 45" fill="url(#shield-gradient)"/>
+  </g>
+
+  <!-- ShieldX360 Text -->
+  <text x="220" y="100" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#text-gradient)">ShieldX360</text>
+  
+  <!-- Zero Compromise Text -->
+  <text x="220" y="140" font-family="Arial, sans-serif" font-size="24" fill="#9c27b0">Zero Compromise</text>
+</svg>
